@@ -2,9 +2,11 @@
 
 [Mag](https://github.com/mahnunchik/mag) is the streaming logger for NodeJS
 
-**mag-process-info** is transform stream that formats message from arguments.
+**mag-format-message** is transform stream that makes formatted message from arguments by [util.format](http://nodejs.org/api/util.html#util_util_format_format) function.
 
 ## Installation
+
+It makes sense to use `mag-format-message` with `mag-hub`. 
 
 ```
 $ npm install mag-format-message mag-hub --save
