@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mag": "git://github.com/mahnunchik/mag#dev",
+    "mag-hub": "^0.1.0"
+  }
+}
