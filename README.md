@@ -1,17 +1,24 @@
-# mag-process-info [![Build Status](https://travis-ci.org/mahnunchik/mag-process-info.svg)](https://travis-ci.org/mahnunchik/mag-process-info)
+# mag-format-message [![Build Status](https://travis-ci.org/mahnunchik/mag-format-message.svg)](https://travis-ci.org/mahnunchik/mag-format-message)
 
 [Mag](https://github.com/mahnunchik/mag) is the streaming logger for NodeJS
 
-**mag-process-info** is transform stream which adds the following information about process:
+**mag-process-info** is transform stream that formats message from arguments.
 
-* pid - the PID of the process
-* hostname - the hostname of the operating system
-* platform - the operating system platform
-* arch - the operating system CPU architecture
-* cwd - the current working directory of the process
+## Installation
+
+```
+$ npm install mag-format-message mag-hub --save
+```
 
 ## Usage
 
+```
+var hub = require('mag-hub');
+var fromat = require('mag-format-message');
+hub.pipe(format())
+  .pipe(/* anything else */)
+  .pipe(process.stdout);
+```
 
 ## License
 
