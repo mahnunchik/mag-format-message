@@ -5,6 +5,7 @@ JSHINT ?= $(NODE_BIN)/jshint
 
 TEST_DIR := test
 LIB := index.js
+EXAMPLE := example/index.js
 
 .SUFFIXES:
 .PHONY: all lint test
@@ -15,4 +16,4 @@ test:
 	@$(MOCHA) --reporter spec
 
 lint:
-	@$(JSHINT) $(LIB) $(TEST_DIR)
+	@$(JSHINT) $(LIB) $(TEST_DIR) $(EXAMPLE)
