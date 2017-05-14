@@ -1,5 +1,7 @@
 # mag-format-message [![Build Status](https://travis-ci.org/mahnunchik/mag-format-message.svg)](https://travis-ci.org/mahnunchik/mag-format-message)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mahnunchik/mag-format-message.svg)](https://greenkeeper.io/)
+
 [Mag](https://github.com/mahnunchik/mag) is the streaming logger for NodeJS
 
 `mag-format-message` is transform stream that makes formatted message from arguments by [util.format](http://nodejs.org/api/util.html#util_util_format_format) function.
