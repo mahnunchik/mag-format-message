@@ -30,11 +30,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "readable-stream": "^1.1.12"
+    "readable-stream": "^2.2.9"
   },
   "devDependencies": {
-    "chai": "^1.9.1",
-    "mocha": "^1.18.2",
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
     "jshint": "^2.5.0"
   }
 }
